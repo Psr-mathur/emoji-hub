@@ -1,0 +1,49 @@
+.maindiv {
+	padding: 114px 10% 50px 10%;
+}
+.contentConatainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 30px 20px;
+	flex-wrap: wrap;
+}
+@media screen and (width<=568px) {
+	.maindiv {
+		padding: 94px 10px 20px 10px;
+	}
+	.contentConatainer {
+	}
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100px;
+	justify-content: center;
+	background: rgb(237, 239, 241);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.emoji {
+	font-size: 75px;
+}
+.showcode {
+	width: 90%;
+	padding: 0% 5%;
+	font-size: 12px;
+	color: lightslategray;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	cursor: pointer;
+}
+.code {
+	height: 40px;
+	width: 100%;
+	background-color: lightslategray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

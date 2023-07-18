@@ -1,0 +1,15 @@
+.footer {
+	padding: 20px 10%;
+	background-color: #b3bfee;
+	color: #444;
+	font-weight: 500;
+}
+.footContainer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+span a {
+	color: #444;
+}
